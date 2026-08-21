@@ -17,7 +17,9 @@ window.HOTEL_CONFIG = {
   email: "[ADD EMAIL]",
   emailHref: null, // e.g. "mailto:stay@dolphinhotels.in"
 
-  addressLine: "[ADD COMPLETE HOTEL ADDRESS], Dindigul, Tamil Nadu, India",
+  // Street/building details still needed — Plus Code + coordinates below are
+  // confirmed (from the property's Google Plus Code, 9X7F+Q6 Dindigul).
+  addressLine: "[ADD BUILDING/STREET DETAILS], 9X7F+Q6, Dindigul, Tamil Nadu, India",
 
   receptionHours: "[ADD DETAILS] — Reception open 24 hours (confirm before launch)",
 
@@ -26,9 +28,10 @@ window.HOTEL_CONFIG = {
   // booking engine / OTA link if online booking is added later.
   bookingUrl: "tel:+919876543210",
 
-  // Replace with a Google Maps embed src for the exact property location.
-  mapEmbedSrc: null,
-  mapDirectionsUrl: "https://www.google.com/maps/search/?api=1&query=Dolphin+Hotels+Dindigul+Tamil+Nadu",
+  // Decoded from the property's Google Plus Code (9X7F+Q6 Dindigul) — confirm
+  // the pin lands correctly on Google Maps before relying on it for signage.
+  mapEmbedSrc: "https://maps.google.com/maps?q=10.364437,77.973062&z=17&output=embed",
+  mapDirectionsUrl: "https://www.google.com/maps/search/?api=1&query=10.364437,77.973062",
 
   social: {
     instagram: "#",

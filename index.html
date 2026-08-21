@@ -38,14 +38,24 @@
   "priceRange": "[ADD PRICE RANGE]",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "[ADD COMPLETE HOTEL ADDRESS]",
+    "streetAddress": "[ADD BUILDING/STREET DETAILS], 9X7F+Q6",
     "addressLocality": "Dindigul",
     "addressRegion": "Tamil Nadu",
     "addressCountry": "IN"
-  }
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 10.364437,
+    "longitude": 77.973062
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=10.364437,77.973062"
 }
 </script>
-<!-- TODO before launch: add "geo": {"@type":"GeoCoordinates","latitude":..,"longitude":..} to the JSON-LD block above once the exact property location is known — this is the single biggest factor in "near me" / local map-pack ranking. -->
+<!-- Coordinates decoded from the property's Google Plus Code (9X7F+Q6 Dindigul).
+     TODO before launch: verify the pin lands correctly on Google Maps, and add
+     the full street address once available (streetAddress currently combines
+     a placeholder with the Plus Code, which is a valid Indian postal address
+     component on its own but reads better with building/street details). -->
 </head>
 <body class="has-mobile-bar">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -409,7 +419,7 @@
             <div><strong>Reception</strong><span data-hotel-text="receptionHours">[ADD DETAILS]</span></div>
           </div>
         </div>
-        <a class="btn btn-primary" data-hotel-link="directions" href="https://www.google.com/maps/search/?api=1&query=Dolphin+Hotels+Dindigul+Tamil+Nadu" target="_blank" rel="noopener">
+        <a class="btn btn-primary" data-hotel-link="directions" href="https://www.google.com/maps/search/?api=1&query=10.364437,77.973062" target="_blank" rel="noopener">
           <svg aria-hidden="true"><use href="#i-compass"/></svg> Get Directions
         </a>
       </div>
