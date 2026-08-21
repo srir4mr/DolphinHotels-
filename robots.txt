@@ -1,0 +1,6 @@
+# TODO before launch: replace www.example.com with the live domain (must match
+# the canonical/OG URLs in index.html and the sitemap.xml below).
+User-agent: *
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
