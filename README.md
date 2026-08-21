@@ -17,8 +17,9 @@ assets/favicon.svg
 ## Before launch — replace placeholders
 
 1. **Contact & booking details** — edit `js/config.js`:
-   - `phoneHref`, `whatsappHref`, `email`/`emailHref`, `addressLine`, `receptionHours`
-   - `bookingUrl` (currently routes to the on-page enquiry section — point it at a real booking engine/OTA link once available)
+   - `phoneDisplay`/`phoneHref` and `whatsappDisplay`/`whatsappHref` currently hold a **placeholder number** (`+91 98765 43210`) — replace with the hotel's real phone/WhatsApp number.
+   - `email`/`emailHref`, `addressLine`, `receptionHours` — still marked `[ADD ...]`, fill in when available.
+   - `bookingUrl` — Dolphin Hotels takes bookings by phone, so "Book Your Stay" / "Book This Room" currently dial the placeholder number above. If online booking is added later, point this (and `phoneHref`) at a real booking engine/OTA link instead.
    - `mapEmbedSrc` (Google Maps embed URL for the exact property location)
 2. **Photography** — replace files in `assets/images/` with real photos of the same name (or update the `src` attributes in `index.html`). Each placeholder is a labelled SVG so it's obvious what to shoot/replace.
 3. **Rooms, amenities, reviews** — edit directly in `index.html` (Rooms, Amenities, Reviews sections). All prices, bed counts, occupancy and amenity lists are marked as placeholders — do not treat them as real hotel data.

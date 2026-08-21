@@ -6,12 +6,13 @@
  * hotel's real details before launch.
  */
 window.HOTEL_CONFIG = {
-  // Digits only, with country code, no spaces or symbols e.g. "919876543210"
-  phoneDisplay: "[ADD PHONE NUMBER]",
-  phoneHref: null, // e.g. "tel:+919876543210" — leave null until a real number is added
+  // PLACEHOLDER NUMBER — replace with the hotel's real phone number before launch.
+  phoneDisplay: "+91 98765 43210",
+  phoneHref: "tel:+919876543210",
 
-  whatsappDisplay: "[ADD WHATSAPP NUMBER]",
-  whatsappHref: null, // e.g. "https://wa.me/919876543210?text=Hi%20Dolphin%20Hotels..."
+  // PLACEHOLDER NUMBER — replace with the hotel's real WhatsApp number before launch.
+  whatsappDisplay: "+91 98765 43210",
+  whatsappHref: "https://wa.me/919876543210?text=Hi%20Dolphin%20Hotels%2C%20I%27d%20like%20to%20enquire%20about%20a%20room.",
 
   email: "[ADD EMAIL]",
   emailHref: null, // e.g. "mailto:stay@dolphinhotels.in"
@@ -20,9 +21,10 @@ window.HOTEL_CONFIG = {
 
   receptionHours: "[ADD DETAILS] — Reception open 24 hours (confirm before launch)",
 
-  // Replace with the hotel's real booking engine / OTA link when available.
-  // Until then, CTAs route to the on-page enquiry section.
-  bookingUrl: "#contact",
+  // Dolphin Hotels takes bookings by phone — "Book Your Stay" / "Book This Room"
+  // call the placeholder number above. Swap phoneHref (and this) for a real
+  // booking engine / OTA link if online booking is added later.
+  bookingUrl: "tel:+919876543210",
 
   // Replace with a Google Maps embed src for the exact property location.
   mapEmbedSrc: null,
