@@ -9,9 +9,9 @@ index.html          Full page markup (semantic HTML, SEO meta, JSON-LD)
 css/style.css        Design tokens + all component/section styles
 js/config.js          Single source of truth for contact/booking links
 js/main.js            Behaviour: nav, mobile menu, reveal-on-scroll, gallery lightbox
-assets/logo/           Dolphin Hotels mark (teal for light backgrounds, cream for dark)
+assets/logo/           Dolphin Hotels icon (navy/gold for light backgrounds, cream/gold for dark)
 assets/images/         Placeholder photography (SVG) — swap for real photos
-assets/favicon.svg
+assets/favicon.png, assets/apple-touch-icon.png
 ```
 
 ## Before launch — replace placeholders
